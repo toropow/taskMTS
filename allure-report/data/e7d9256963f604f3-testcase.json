@@ -1,0 +1,59 @@
+{
+  "uid" : "e7d9256963f604f3",
+  "name" : "TestCheckInit.test_not_string_in_arg_func",
+  "title" : "Test not string in arg func",
+  "time" : {
+    "start" : 1525896818131,
+    "stop" : 1525896818141,
+    "duration" : 10
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TypeError: expected string or buffer",
+    "stackTrace" : "self = <test_first.TestCheckInit instance at 0x7f54f2f5f488>\n\n    @allure.feature(\"Incorrect input\")\n    @allure.story(\"Checking the output with list instead string\")\n    def test_not_string_in_arg_func(self):\n>       result = Check.check_ident(list(\"9876543219 9\"))\n\ntest_first.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nCheck.py:4: in check_ident\n    if not re.match('^\\d{5}-\\d{5} \\d$', ident):\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\npattern = '^\\\\d{5}-\\\\d{5} \\\\d$', string = ['9', '8', '7', '6', '5', '4', ...], flags = 0\n\n    def match(pattern, string, flags=0):\n        \"\"\"Try to apply the pattern at the start of the string, returning\n        a match object, or None if no match was found.\"\"\"\n>       return _compile(pattern, flags).match(string)\nE       TypeError: expected string or buffer\n\n../../miniconda2/lib/python2.7/re.py:141: TypeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "171b12f4df0d7f10",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Checking the output with list instead string"
+  }, {
+    "name" : "feature",
+    "value" : "Incorrect input"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "5618-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

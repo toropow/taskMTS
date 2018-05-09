@@ -1,0 +1,62 @@
+{
+  "uid" : "23426fccf6b66cba",
+  "name" : "TestCheckInit.test_positive_check_only_zerro",
+  "title" : "Test positive check only zerro",
+  "time" : {
+    "start" : 1525901683732,
+    "stop" : 1525901683733,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6d45831bf6a3d4ff",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "5af7f4ef-a1db-49cc-9ef5-09a0a3d93785-attachment.txt",
+    "type" : "text/plain",
+    "size" : 4,
+    "uid" : "e07f4860e6d0caf3"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "7087-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Correct input"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with a number consisting of 1"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

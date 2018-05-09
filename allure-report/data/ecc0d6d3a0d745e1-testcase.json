@@ -1,0 +1,53 @@
+{
+  "uid" : "ecc0d6d3a0d745e1",
+  "name" : "TestCheckInit.test_with_fractional_number",
+  "title" : "Test with fractional number",
+  "time" : {
+    "start" : 1525896491394,
+    "stop" : 1525896491395,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2f164933aa0032d9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with fractional number"
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4773-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

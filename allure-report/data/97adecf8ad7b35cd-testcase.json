@@ -1,0 +1,56 @@
+{
+  "uid" : "97adecf8ad7b35cd",
+  "name" : "TestCheckInit.test_without_space",
+  "title" : "Test without space",
+  "time" : {
+    "start" : 1525886391601,
+    "stop" : 1525886391603,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "be762428afaeecb9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "f15eddb4-92a2-4f3d-9eb7-484480e23c46-attachment.txt",
+    "type" : "text/plain",
+    "size" : 6,
+    "uid" : "c65eee19773cebf9"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "10143-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

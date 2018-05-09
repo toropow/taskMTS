@@ -1,0 +1,56 @@
+{
+  "uid" : "48162d267182b3f5",
+  "name" : "TestCheckInit.test_two_arg_in_func",
+  "title" : "Test two arg in func",
+  "time" : {
+    "start" : 1525896677842,
+    "stop" : 1525896677861,
+    "duration" : 19
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TypeError: check_ident() takes exactly 1 argument (2 given)",
+    "stackTrace" : "self = <test_first.TestCheckInit instance at 0x7f9835450ab8>\n\n    @allure.story(\"Checking the output with two param\")\n    def test_two_arg_in_func(self):\n>       result = Check.check_ident(\"9876543219 9\",\"9876543219 9\")\nE       TypeError: check_ident() takes exactly 1 argument (2 given)\n\ntest_first.py:31: TypeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3bcae6a79c7b82a8",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Checking the output with two param"
+  }, {
+    "name" : "thread",
+    "value" : "5195-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

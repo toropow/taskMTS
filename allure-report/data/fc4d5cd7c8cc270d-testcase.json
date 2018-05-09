@@ -1,0 +1,56 @@
+{
+  "uid" : "fc4d5cd7c8cc270d",
+  "name" : "TestCheckInit.test_with_letter",
+  "title" : "Test with letter",
+  "time" : {
+    "start" : 1525901683723,
+    "stop" : 1525901683724,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6d45831bf6a3d4ff",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Incorrect input"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "7087-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with letter within the number"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

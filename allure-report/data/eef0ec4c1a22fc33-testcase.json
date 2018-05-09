@@ -1,0 +1,56 @@
+{
+  "uid" : "eef0ec4c1a22fc33",
+  "name" : "TestCheckInit.test_less_values",
+  "title" : "Test less values",
+  "time" : {
+    "start" : 1525886391565,
+    "stop" : 1525886391566,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "be762428afaeecb9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "3d3d61ad-3bd6-4129-8289-6bc5e2f7cbd6-attachment.txt",
+    "type" : "text/plain",
+    "size" : 6,
+    "uid" : "5d8c3d647112820e"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "10143-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

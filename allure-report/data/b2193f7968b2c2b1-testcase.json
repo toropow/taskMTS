@@ -1,0 +1,56 @@
+{
+  "uid" : "b2193f7968b2c2b1",
+  "name" : "TestCheckInit.test_with_letter",
+  "title" : "Test with letter",
+  "time" : {
+    "start" : 1525886391613,
+    "stop" : 1525886391614,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "be762428afaeecb9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "07a4595f-0f00-4b47-a358-49132e5cb1f5-attachment.txt",
+    "type" : "text/plain",
+    "size" : 6,
+    "uid" : "99b5f2152304c418"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "10143-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

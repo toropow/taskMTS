@@ -1,0 +1,23 @@
+[
+  "test_first.py::TestCheckInit::()::test_empty", 
+  "test_first.py::TestCheckInit::()::test_without_param", 
+  "test_first.py::TestCheckInit::()::test_less_values", 
+  "test_first.py::TestCheckInit::()::test_large_values", 
+  "test_first.py::TestCheckInit::()::test_without_hyphen", 
+  "test_first.py::TestCheckInit::()::test_with_fractional_number", 
+  "test_first.py::TestCheckInit::()::test_two_arg_in_func", 
+  "test_first.py::TestCheckInit::()::test_not_string_in_arg_func", 
+  "test_first.py::TestCheckInit::()::test_self", 
+  "test_first.py::TestCheckInit::()::test_bool", 
+  "test_first.py::TestCheckInit::()::test_without_space", 
+  "test_first.py::TestCheckInit::()::test_with_space_end", 
+  "test_first.py::TestCheckInit::()::test_with_space_first", 
+  "test_first.py::TestCheckInit::()::test_with_double_space", 
+  "test_first.py::TestCheckInit::()::test_with_negative_number", 
+  "test_first.py::TestCheckInit::()::test_with_letter", 
+  "test_first.py::TestCheckInit::()::test_with_symbol", 
+  "test_first.py::TestCheckInit::()::test_positive_check_sum_less_10", 
+  "test_first.py::TestCheckInit::()::test_positive_check_sum_more_10", 
+  "test_first.py::TestCheckInit::()::test_positive_check_only_zerro", 
+  "test_first.py::TestCheckInit::()::test_positive_check_only_one"
+]

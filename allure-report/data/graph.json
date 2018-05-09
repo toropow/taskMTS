@@ -1,0 +1,234 @@
+{
+  "testCases" : [ {
+    "uid" : "336aeaf4d18e2051",
+    "name" : "TestCheckInit.test_empty",
+    "title" : "Test empty",
+    "time" : {
+      "start" : 1525901683691,
+      "stop" : 1525901683692,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cce6d73963114f6b",
+    "name" : "TestCheckInit.test_without_param",
+    "title" : "Test without param",
+    "time" : {
+      "start" : 1525901683694,
+      "stop" : 1525901683695,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3c616ad7ca60fa4e",
+    "name" : "TestCheckInit.test_less_values",
+    "title" : "Test less values",
+    "time" : {
+      "start" : 1525901683696,
+      "stop" : 1525901683697,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "acdca1c58ef024e7",
+    "name" : "TestCheckInit.test_large_values",
+    "title" : "Test large values",
+    "time" : {
+      "start" : 1525901683698,
+      "stop" : 1525901683699,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ee6e56c7471df27c",
+    "name" : "TestCheckInit.test_without_hyphen",
+    "title" : "Test without hyphen",
+    "time" : {
+      "start" : 1525901683700,
+      "stop" : 1525901683701,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "194eb544a61bd24f",
+    "name" : "TestCheckInit.test_with_fractional_number",
+    "title" : "Test with fractional number",
+    "time" : {
+      "start" : 1525901683702,
+      "stop" : 1525901683703,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b948df19cee20587",
+    "name" : "TestCheckInit.test_two_arg_in_func",
+    "title" : "Test two arg in func",
+    "time" : {
+      "start" : 1525901683704,
+      "stop" : 1525901683705,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8971320b660d7d96",
+    "name" : "TestCheckInit.test_not_string_in_arg_func",
+    "title" : "Test not string in arg func",
+    "time" : {
+      "start" : 1525901683706,
+      "stop" : 1525901683707,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5c23f0a6e70ec172",
+    "name" : "TestCheckInit.test_self",
+    "title" : "Test self",
+    "time" : {
+      "start" : 1525901683708,
+      "stop" : 1525901683710,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fdb6c4b0d1b0d7fc",
+    "name" : "TestCheckInit.test_bool",
+    "title" : "Test bool",
+    "time" : {
+      "start" : 1525901683711,
+      "stop" : 1525901683712,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "651458b69f637bda",
+    "name" : "TestCheckInit.test_without_space",
+    "title" : "Test without space",
+    "time" : {
+      "start" : 1525901683713,
+      "stop" : 1525901683714,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a9743ec56b32cfdb",
+    "name" : "TestCheckInit.test_with_space_end",
+    "title" : "Test with space end",
+    "time" : {
+      "start" : 1525901683715,
+      "stop" : 1525901683716,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "aef06a46f8d8cfe1",
+    "name" : "TestCheckInit.test_with_space_first",
+    "title" : "Test with space first",
+    "time" : {
+      "start" : 1525901683717,
+      "stop" : 1525901683718,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "8907dcec63658adc",
+    "name" : "TestCheckInit.test_with_double_space",
+    "title" : "Test with double space",
+    "time" : {
+      "start" : 1525901683719,
+      "stop" : 1525901683720,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "58725bc55e65351d",
+    "name" : "TestCheckInit.test_with_negative_number",
+    "title" : "Test with negative number",
+    "time" : {
+      "start" : 1525901683721,
+      "stop" : 1525901683722,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fc4d5cd7c8cc270d",
+    "name" : "TestCheckInit.test_with_letter",
+    "title" : "Test with letter",
+    "time" : {
+      "start" : 1525901683723,
+      "stop" : 1525901683724,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e950c3df9674f6d6",
+    "name" : "TestCheckInit.test_with_symbol",
+    "title" : "Test with symbol",
+    "time" : {
+      "start" : 1525901683725,
+      "stop" : 1525901683726,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5e09682db21ad77a",
+    "name" : "TestCheckInit.test_positive_check_sum_less_10",
+    "title" : "Test positive check sum less 10",
+    "time" : {
+      "start" : 1525901683727,
+      "stop" : 1525901683729,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "372beff684fdbc2c",
+    "name" : "TestCheckInit.test_positive_check_sum_more_10",
+    "title" : "Test positive check sum more 10",
+    "time" : {
+      "start" : 1525901683730,
+      "stop" : 1525901683731,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "23426fccf6b66cba",
+    "name" : "TestCheckInit.test_positive_check_only_zerro",
+    "title" : "Test positive check only zerro",
+    "time" : {
+      "start" : 1525901683732,
+      "stop" : 1525901683733,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "527a294718c6c6c7",
+    "name" : "TestCheckInit.test_positive_check_only_one",
+    "title" : "Test positive check only one",
+    "time" : {
+      "start" : 1525901683735,
+      "stop" : 1525901683736,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

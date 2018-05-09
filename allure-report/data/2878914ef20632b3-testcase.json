@@ -1,0 +1,62 @@
+{
+  "uid" : "2878914ef20632b3",
+  "name" : "TestCheckInit.test_positive_check_sum_less_10",
+  "title" : "Test positive check sum less 10",
+  "time" : {
+    "start" : 1525896677912,
+    "stop" : 1525896677913,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3bcae6a79c7b82a8",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "d6e4fe67-4771-4b3c-8722-add1a8390a84-attachment.txt",
+    "type" : "text/plain",
+    "size" : 4,
+    "uid" : "ffabdf55c6e7d7bd"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5195-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with check sum less 10"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Correct input"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

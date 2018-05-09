@@ -1,0 +1,59 @@
+{
+  "uid" : "24abbe7d0771e2e8",
+  "name" : "TestCheckInit.test_positive_check_only_one",
+  "title" : "Test positive check only one",
+  "time" : {
+    "start" : 1525896491472,
+    "stop" : 1525896491473,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2f164933aa0032d9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "2c884022-fb58-4cbc-95a0-3955172b3d19-attachment.txt",
+    "type" : "text/plain",
+    "size" : 4,
+    "uid" : "72ef6bcd9dd6fe49"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4773-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with a number consisting of 0"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

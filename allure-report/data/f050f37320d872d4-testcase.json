@@ -1,0 +1,62 @@
+{
+  "uid" : "f050f37320d872d4",
+  "name" : "TestCheckInit.test_self",
+  "title" : "Test self",
+  "time" : {
+    "start" : 1525896491429,
+    "stop" : 1525896491438,
+    "duration" : 9
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TypeError: expected string or buffer",
+    "stackTrace" : "self = <test_first.TestCheckInit instance at 0x7f9220d1d368>\n\n    @allure.story(\"Checking the output with param as self 'check_init' function\")\n    def test_self(self):\n>       result = Check.check_ident(Check.check_ident(\"98765-43219 9\"))\n\ntest_first.py:46: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nCheck.py:4: in check_ident\n    if not re.match('^\\d{5}-\\d{5} \\d$', ident):\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\npattern = '^\\\\d{5}-\\\\d{5} \\\\d$', string = True, flags = 0\n\n    def match(pattern, string, flags=0):\n        \"\"\"Try to apply the pattern at the start of the string, returning\n        a match object, or None if no match was found.\"\"\"\n>       return _compile(pattern, flags).match(string)\nE       TypeError: expected string or buffer\n\n../../miniconda2/lib/python2.7/re.py:141: TypeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2f164933aa0032d9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "38dd7eb0-ed13-4e64-b91a-f13be1169674-attachment.txt",
+    "type" : "text/plain",
+    "size" : 4,
+    "uid" : "ca5f36cb727d072b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with param as self 'check_init' function"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4773-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

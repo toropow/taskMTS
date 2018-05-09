@@ -1,0 +1,62 @@
+{
+  "uid" : "b2672f922eb652b9",
+  "name" : "TestCheckInit.test_positive_check_only_one",
+  "title" : "Test positive check only one",
+  "time" : {
+    "start" : 1525886391625,
+    "stop" : 1525886391626,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "be762428afaeecb9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "209d30aa-72b3-45ed-896b-8d5d9bce1389-attachment.txt",
+    "type" : "text/plain",
+    "size" : 6,
+    "uid" : "441fe64c48d8508"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "514e396d-a9a8-48e4-8230-db1d9a02fc6f-attachment.txt",
+    "type" : "text/plain",
+    "size" : 4,
+    "uid" : "cf781ce9eece0613"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "10143-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

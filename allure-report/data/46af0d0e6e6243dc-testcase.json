@@ -1,0 +1,59 @@
+{
+  "uid" : "46af0d0e6e6243dc",
+  "name" : "TestCheckInit.test_bool",
+  "title" : "Test bool",
+  "time" : {
+    "start" : 1525896818155,
+    "stop" : 1525896818164,
+    "duration" : 9
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "TypeError: expected string or buffer",
+    "stackTrace" : "self = <test_first.TestCheckInit instance at 0x7f54f2f5b878>\n\n    @allure.feature(\"Incorrect input\")\n    @allure.story(\"Checking the output with boolean as param\")\n    def test_bool(self):\n>       result = Check.check_ident(False)\n\ntest_first.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nCheck.py:4: in check_ident\n    if not re.match('^\\d{5}-\\d{5} \\d$', ident):\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\npattern = '^\\\\d{5}-\\\\d{5} \\\\d$', string = False, flags = 0\n\n    def match(pattern, string, flags=0):\n        \"\"\"Try to apply the pattern at the start of the string, returning\n        a match object, or None if no match was found.\"\"\"\n>       return _compile(pattern, flags).match(string)\nE       TypeError: expected string or buffer\n\n../../miniconda2/lib/python2.7/re.py:141: TypeError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "171b12f4df0d7f10",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Incorrect input"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "thread",
+    "value" : "5618-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with boolean as param"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}

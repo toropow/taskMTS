@@ -1,0 +1,310 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1525901683691" stop="1525901683736">
+  <name>test_first</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1525901683691" status="passed" stop="1525901683692">
+      <name>TestCheckInit.test_empty</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with empty input"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683694" status="passed" stop="1525901683695">
+      <name>TestCheckInit.test_without_param</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output without param"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683696" status="passed" stop="1525901683697">
+      <name>TestCheckInit.test_less_values</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with less count number"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683698" status="passed" stop="1525901683699">
+      <name>TestCheckInit.test_large_values</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with large count number"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683700" status="passed" stop="1525901683701">
+      <name>TestCheckInit.test_without_hyphen</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output without hyphen"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683702" status="passed" stop="1525901683703">
+      <name>TestCheckInit.test_with_fractional_number</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with fractional number"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683704" status="passed" stop="1525901683705">
+      <name>TestCheckInit.test_two_arg_in_func</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with two param"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683706" status="passed" stop="1525901683707">
+      <name>TestCheckInit.test_not_string_in_arg_func</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with list instead string"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683708" status="passed" stop="1525901683710">
+      <name>TestCheckInit.test_self</name>
+      <attachments>
+        <attachment source="e8208fce-4f11-4c1f-8d6c-d629bef85bfa-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="Checking the output with param as self 'check_init' function"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683711" status="passed" stop="1525901683712">
+      <name>TestCheckInit.test_bool</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with boolean as param"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683713" status="passed" stop="1525901683714">
+      <name>TestCheckInit.test_without_space</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output without space between number and summ"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683715" status="passed" stop="1525901683716">
+      <name>TestCheckInit.test_with_space_end</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with extra space right"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683717" status="passed" stop="1525901683718">
+      <name>TestCheckInit.test_with_space_first</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with extra space left"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683719" status="passed" stop="1525901683720">
+      <name>TestCheckInit.test_with_double_space</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with double space between number and summ"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683721" status="passed" stop="1525901683722">
+      <name>TestCheckInit.test_with_negative_number</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with negative number"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683723" status="passed" stop="1525901683724">
+      <name>TestCheckInit.test_with_letter</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with letter within the number"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683725" status="passed" stop="1525901683726">
+      <name>TestCheckInit.test_with_symbol</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="Checking the output with letter within the symbol"/>
+        <label name="feature" value="Incorrect input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683727" status="passed" stop="1525901683729">
+      <name>TestCheckInit.test_positive_check_sum_less_10</name>
+      <attachments>
+        <attachment source="42a7720e-a1fc-4784-b081-dfc3be8e465d-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="Checking the output with check sum less 10"/>
+        <label name="feature" value="Correct input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683730" status="passed" stop="1525901683731">
+      <name>TestCheckInit.test_positive_check_sum_more_10</name>
+      <attachments>
+        <attachment source="f6f04984-35ba-4322-a4af-e3a636bcf390-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="Checking the output with check sum more 10"/>
+        <label name="feature" value="Correct input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683732" status="passed" stop="1525901683733">
+      <name>TestCheckInit.test_positive_check_only_zerro</name>
+      <attachments>
+        <attachment source="5af7f4ef-a1db-49cc-9ef5-09a0a3d93785-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="Checking the output with a number consisting of 1"/>
+        <label name="feature" value="Correct input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1525901683735" status="passed" stop="1525901683736">
+      <name>TestCheckInit.test_positive_check_only_one</name>
+      <attachments>
+        <attachment source="9e7beb99-02e1-4b87-bb06-7725571f5f86-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="story" value="Checking the output with a number consisting of 0"/>
+        <label name="feature" value="Correct input"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="7087-MainThread"/>
+        <label name="host" value="familypc"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

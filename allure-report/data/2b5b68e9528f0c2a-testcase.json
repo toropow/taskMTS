@@ -1,0 +1,59 @@
+{
+  "uid" : "2b5b68e9528f0c2a",
+  "name" : "TestCheckInit.test_positive_check_sum_more_10",
+  "title" : "Test positive check sum more 10",
+  "time" : {
+    "start" : 1525896491468,
+    "stop" : 1525896491469,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2f164933aa0032d9",
+    "name" : "test_first",
+    "title" : "Test first"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "45051913-1963-447c-ae40-7f8fa00a0cfe-attachment.txt",
+    "type" : "text/plain",
+    "size" : 5,
+    "uid" : "7827f377efa59f74"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test_first"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "familypc"
+  }, {
+    "name" : "story",
+    "value" : "Checking the output with check sum more 10"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4773-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  } ],
+  "parameters" : [ ]
+}
